@@ -1,0 +1,4 @@
+;STOREI $T2 i
+;GEI i $T4 label1
+;ADDI num a $T7
+;LABEL label1

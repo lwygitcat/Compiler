@@ -1,0 +1,23 @@
+;LABEL add
+;LINK 
+;ADDF $P1 $P2 $T1
+;STOREF $T1 $L1
+;STOREF $L1 $T2
+;STOREF $T2 $R
+;RET
+
+
+
+label add 
+link 1
+move $17 r0
+addr $18 r0
+move r0 $-1
+move $-1 r1
+move r1 $19
+unlnk
+ret
+
+
+
+
